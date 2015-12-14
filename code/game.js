@@ -42,7 +42,7 @@ function Level(plan) {
       // Because there is a third case (space ' '), use an "else if" instead of "else"
       else if (ch == "<")
         fieldType = "lava";
-      //spike
+      /*//spike
        else if (ch =="s")
         fieldType = "spike";
       //water
@@ -53,7 +53,7 @@ function Level(plan) {
         fieldType = "dirt";
       //fish
       else if (ch == "f")
-        fieldType = "fish";
+        fieldType = "fish"; */
       
       // "Push" the fieldType, which is a string, onto the gridLine array (at the end).
       gridLine.push(fieldType);
@@ -99,7 +99,7 @@ Player.prototype.type = "player";
 // Add a new actor type as a class
 function Coin(pos) {
   this.basePos = this.pos = pos.plus(new Vector(0.2, 0.1));
-  this.size = new Vector(1, 1);
+  this.size = new Vector(0.6, 0.6);
   // Make it go back and forth in a sine wave.
   this.wobble = Math.random() * Math.PI * 2;
 }
