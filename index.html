@@ -5,6 +5,8 @@
 </head>
 <script src="code/game.js"></script>
 <script src="code/game_levels.js"></script>
+<script src="code/canvasdisplay.js"></script>
+
 
 <link rel="stylesheet" href="css/game.css">
 
@@ -13,13 +15,19 @@
 		<h1 class="title">Let's Play a Game</h1>
   	</div>
   	<div id="information">
-  		<p> Collect all the <b>Trophies</b> in order to progress in the game.
-  			<br> But be careful from the <b>Bombs</b> and <b>Ghosts</b>!
+  		<p> Collect all the <b>Coins</b> in order to progress in the game.
+  			<br> But be careful from the <b>Hot Lava</b>!
   			<br> Use the arrow keys to move and jump.
+        <br> Whenever you're ready, Click on Start button to start the game.
+        <br> Have Fun!
   		</p>
   	</div>
+    <button id="myButton" style="width: 200px; height: 60px">Start</button>
   	<script>
-    	runGame(GAME_LEVELS, DOMDisplay);
+      document.getElementById("myButton").onclick = displayGame;
+      function displayGame() {
+        runGame(GAME_LEVELS, CanvasDisplay);
+      }
   	</script>
 </body>
 </html>

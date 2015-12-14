@@ -62,7 +62,7 @@ CanvasDisplay.prototype.clearDisplay = function() {
   else if (this.level.status == "lost")
     this.cx.fillStyle = "rgb(44, 136, 214)";
   else
-    this.cx.fillStyle = "rgb(52, 166, 251)";
+    this.cx.fillStyle = "rgb(204, 255, 255)";
   this.cx.fillRect(0, 0,
                    this.canvas.width, this.canvas.height);
 };

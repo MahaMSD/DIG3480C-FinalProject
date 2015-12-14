@@ -2,18 +2,20 @@ body{
 	background-color: #F0FFFF;
 	height: 100%;
   width: 100%; 
-  
 }
+
 h1 {
     color: #7B68EE;
     text-align: center;
 }
+
 p {
    font-family: Fraktur;
    color: #1E90FF;
-   font-size: 25px;
+   font-size: 20px;
    text-align: center;
 }
+
 b{
    color: #FF0000;
 }
@@ -22,13 +24,20 @@ canvas {
     padding: 0;
     margin: auto;
     display: block;
-    width: 800px;
-    height: 600px;
     position: absolute;
-    top: 0;
-    bottom: 0;
     left: 0;
     right: 0;
+}
+
+button {
+  width: 100px; 
+  margin: auto; 
+  position: absolute;
+  left:0;
+  right:0;
+  font-size: 20px;
+  font-family: Fraktur;
+   color: #1E90FF;
 }
 
 
@@ -37,12 +46,7 @@ canvas {
                  border-spacing: 0;}
 .background td { padding: 0;}
 
-.lava 	{background-image: url("http://s20.postimg.org/5d7vwlit5/Lava.png");}
-.rocket {background-image: url("http://s20.postimg.org/v7homdit5/Enemy_Lava.png");}
-.kill 	{background-image: url("http://s20.postimg.org/3typme83d/Enemy_Bomb.png");}
-.bomb 	{background-image: url("http://s20.postimg.org/ryzf43se1/Enemy_Bomb01.png");}
-.ghost	{background-image: url("http://s20.postimg.org/bybf4vjw9/Enemy_Ghost02.png");}
-.fire	{background-image: url("http://s20.postimg.org/76askx3zt/Fire.png");}
+
 
 .wall 	{background-image: url("http://s20.postimg.org/nwczirnnd/Brick_Wall.png");}
 .dirt 	{background-image: url("http://s20.postimg.org/6lhzd06m1/Dirt_Image_Trial.png");} 
