@@ -4,25 +4,25 @@ body{
 	position: absolute;
   height: 100%;
   width: 100%;
-
-
-
 }
 
 h1 {
-    color: #7B68EE;
+    color: #FF8000;
     text-align: center;
+    font-family: Copperplate Gothic Bold;
+    font-size: 40px;
 }
 
 p {
-   font-family: Fraktur;
+   font-family: Copperplate Gothic Light ;
    color: #1E90FF;
    font-size: 20px;
    text-align: center;
 }
 
 b{
-   color: #FF0000;
+   color: #FF5E00;
+   font-family: Copperplate Gothic Bold;
 }
 
 canvas {
@@ -40,33 +40,14 @@ button {
   position: absolute;
   left:0;
   right:0;
-  font-size: 20px;
-  font-family: Fraktur;
-   color: #1E90FF;
+  font-size: 55px;
+  font-family: Copperplate Gothic Bold;
+  color: #FF6600;
+  border-radius: 8px;
+  background: #FFFFFF; 
 }
 
 
-.background    { background-image: url("http://s20.postimg.org/5w3sedvgd/Background_Image_For_Game06.png");
-                 table-layout: fixed;
-                 border-spacing: 0;}
-.background td { padding: 0;}
 
 
-.wall 	{background-image: url("http://s20.postimg.org/nwczirnnd/Brick_Wall.png");}
-.dirt 	{background-image: url("http://s20.postimg.org/6lhzd06m1/Dirt_Image_Trial.png");} 
-.spike 	{background-image: url("http://s20.postimg.org/6iy3q62yh/Spike_Image01.png");}
-.water 	{background-image: url("http://s20.postimg.org/b8o1ertyx/Water_Image.png");}
-.fish 	{background-image: url("http://s20.postimg.org/s6rnecsqh/Water_Image_Fish.png");}
-
-.actor  { position: absolute;  }
-.coin   { background-image: url("http://s20.postimg.org/i0j1vd8c9/Trophy.png");}
-.player { background-image: url("http://s20.postimg.org/ouokl5xmh/player06.png");}
-
-.game { overflow: hidden;
-  		max-width: 900px;
-  		max-height: 750px;
-  		position: relative;}
-
-.lost .player 	{background-image: url("http://s20.postimg.org/9ie74rr7d/Player_Loss02.png");}
-.won .player 	{background-image: url("http://s20.postimg.org/luh3i9f21/Player_Win.png");}
 

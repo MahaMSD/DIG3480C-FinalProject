@@ -42,18 +42,6 @@ function Level(plan) {
       // Because there is a third case (space ' '), use an "else if" instead of "else"
       else if (ch == "<")
         fieldType = "lava";
-      /*//spike
-       else if (ch =="s")
-        fieldType = "spike";
-      //water
-      else if (ch == "^")
-        fieldType = "water";
-      //dirt
-      else if (ch == "d")
-        fieldType = "dirt";
-      //fish
-      else if (ch == "f")
-        fieldType = "fish"; */
       
       // "Push" the fieldType, which is a string, onto the gridLine array (at the end).
       gridLine.push(fieldType);
@@ -282,11 +270,7 @@ Level.prototype.obstacleAt = function(pos, size) {
   for (var y = yStart; y < yEnd; y++) {
     for (var x = xStart; x < xEnd; x++) {
       var fieldType = this.grid[y][x];
-	  if (fieldType == "dirt") return "lava";
-    else if (fieldType == "spike") return "lava";
-	  else if (fieldType == "water") return "lava";
-    else if (fieldType == "fish") return "lava";
-	  else if (fieldType) return fieldType;
+      if (fieldType) return fieldType;
     }
   }
 };
