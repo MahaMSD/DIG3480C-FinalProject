@@ -1,7 +1,12 @@
 body{
-	background-color: #F0FFFF;
-	height: 100%;
-  width: 100%; 
+	background-image: url("http://s20.postimg.org/5gxfptqf1/background_Please_Work_This_Time.jpg");
+  background-size: cover;
+	position: absolute;
+  height: 100%;
+  width: 100%;
+
+
+
 }
 
 h1 {
@@ -45,7 +50,6 @@ button {
                  table-layout: fixed;
                  border-spacing: 0;}
 .background td { padding: 0;}
-
 
 
 .wall 	{background-image: url("http://s20.postimg.org/nwczirnnd/Brick_Wall.png");}
